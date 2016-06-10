@@ -1,0 +1,16 @@
+<div class="row">
+    <h2>Qualifications</h2>
+    <div *ngFor="let qualification of qualifications"  class="col-md-6 col-sm-12">
+         <div (mouseover) = "switch = !switch" (mouseout) = "switch = !switch" >
+             <h3> {{qualification.name}}</h3>
+            <div class="main-qual">
+                <p>{{qualification.school}}</p>
+                <p>{{qualification.year}}</p>
+            </div>
+         </div>
+         <div class="qual-desc" [ngClass]="switch? 'on' : 'off'" >
+             {{qualification.desc}}
+             
+         </div>
+    </div>
+</div>

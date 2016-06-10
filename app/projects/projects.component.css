@@ -1,0 +1,57 @@
+.row {
+    padding-top: 1em;
+    padding-bottom: 5em;
+    background-color: #F7f7f7;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.left-side{
+    padding-top: 2em;
+    padding-right: 2em;
+}
+.right-side {
+    padding-left: 2em;
+}
+
+.left-side img{
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding-top: 0.9em;
+}
+
+ul li .icon {
+    margin-right: 1em;
+    font-size: 2em;
+    color: #325771;
+    display: inline-block;
+    line-height: 0.5em;
+    vertical-align: middle;
+}
+
+ul li:nth-child(5) .icon {
+    font-size: 1.1em;
+    margin-right: 1.7em;
+}
+
+ul li:nth-child(7) .icon {
+    font-size: 1.1em;
+    margin-right: 1.6em;
+}
+
+.btn-primary{
+    background-color: #325771;
+}
+
+.btn-primary:hover{
+    background-color: #2c3e50;
+}
+
+
+

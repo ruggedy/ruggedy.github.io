@@ -1,0 +1,72 @@
+ [class*=' col-'],
+ [class^='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row{
+    padding: 1em 0 5em;
+}
+
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+}
+
+ul li img{
+    width: 100%;
+    height: auto;
+    
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    transition: transform 0.5s;
+}
+
+span.text-content {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 5em;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+span.text-content span{
+    display: table-cell;
+    text-align: center;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+span.text-content span:last-of-type{
+    height: 20%;
+    font-size: 0.9em;
+    font-style: italic;
+    display: table-row;
+}
+
+ul.img-list li:hover span.text-content {
+    opacity: 1;
+}
+ul.img-list li:hover img {
+    transform: scale(1.30);
+}

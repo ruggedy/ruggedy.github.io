@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-xs-12">
+            <div class="row">
+                <h1>Hobbies</h1>
+                <div *ngFor="let hobby of hobbys"  class="col-md-6 col-xs-12">
+                    <div>
+                        <span>
+                            <img src="{{hobby.hobbyUrl}}" alt="">
+                            {{hobby.hobbyName}}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <h1>Contact Information</h1>
+            <div>
+                <span><img src="" alt=""> 07947602408</span>
+            </div>
+            <div>
+                <span><img src="" alt=""> Shout2John@yahoo.com</span>
+            </div>
+            <div>
+                <span><img src="" alt=""> <a href="https://www.linkedin.com/in/john-adetutu-a05b4793?trk=hp-identity-name">LinkedIn</a></span>
+            </div>
+        </div>
+    </div>
+</div>

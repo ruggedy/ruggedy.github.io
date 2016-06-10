@@ -1,0 +1,14 @@
+<div class="row">
+    <h2>Assisted Projects</h2>
+    <ul class="img-list">
+        <li *ngFor="let project of projects"  class="col-md-4 col-sm-6 col-xs-12">
+            <a href="{{project.link}}" target="_blank">
+                <img src="{{project.image}}" alt="">
+                <span class="text-content">
+                    <span>{{project.desc}}</span>
+                    <span>{{project.tutor}}</span>
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>

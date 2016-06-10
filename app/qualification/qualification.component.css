@@ -1,0 +1,27 @@
+.row {
+    padding-top: 3em;
+}
+
+.course-box {
+    width: 50%;
+    float: left;
+    padding: 0 2em;
+}
+
+h2:after{
+    width: 9em;
+}
+
+.on {
+    opacity: 1;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+.off {
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}

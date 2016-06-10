@@ -1,0 +1,29 @@
+.row {
+    padding-top: 1em;
+    padding-bottom: 5em;
+    background-color: #F7f7f7;
+}
+
+.divide i:last-of-type {
+    display: inline-block;
+}
+
+.divide {
+    padding: 1em 1em;
+    text-align: center;
+}
+
+.divide i:first-of-type {
+    text-align: center;
+    font-size: 2.5em;
+    display: block;
+    color: #325771;
+}
+
+.filled{
+    color: #c0392b;
+}
+
+.unfilled {
+    color: #C4C0C2;
+}
